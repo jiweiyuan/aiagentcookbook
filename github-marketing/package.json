@@ -1,0 +1,37 @@
+{
+  "name": "@aiagentcookbook/github-marketing",
+  "version": "0.0.1",
+  "description": "Stateful agents that make decisions based on finite-state machine models",
+  "main": "dist/index.js",
+  "module": "dist/index.mjs",
+  "types": "dist/index.d.ts",
+  "scripts": {
+    "build": "tsup src/index.ts --format cjs,esm --dts",
+    "lint": "tsc --noEmit",
+    "start": "ts-node src/index.ts"
+  },
+  "keywords": [
+    "ai",
+    "state machine",
+    "agent",
+    "rl",
+    "reinforcement learning"
+  ],
+  "author": "David Khourshid <david@stately.ai>",
+  "license": "MIT",
+  "devDependencies": {
+    "@ai-sdk/anthropic": "^0.0.54",
+    "@ai-sdk/openai": "^0.0.40",
+    "@types/node": "^20.17.13",
+    "dotenv": "^16.4.7",
+    "ts-node": "^10.9.2",
+    "tsup": "^8.3.5",
+    "typescript": "^5.7.3",
+    "zod": "^3.24.1"
+  },
+  "dependencies": {
+    "@octokit/core": "^6.1.3",
+    "ai": "^4.0.38"
+  },
+  "packageManager": "pnpm@9.13.0"
+}
