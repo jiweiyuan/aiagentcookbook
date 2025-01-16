@@ -1,6 +1,6 @@
 # Github Marketing
 
-Programmers are always obsessed with building cool things. However, sometimes a marketing boost is needed for a cold start. Let this tool handle the marketing. When you build an OSS project, how do you find users who are interested and help the project grow? This tool might help you identify your target audience and expand your reach.
+Programmers are often obsessed with building cool things. However, when you’re working on an excellent open-source (OSS) project, you may need a marketing boost. How do you find potential users and help your project grow? This tool might help you identify your target audience. 
 
 ## Introduction
 This project enables retrieving and storing information about stargazers for a specified GitHub repository. The script fetches essential user details (login, URL, HTML URL) for each stargazer on a Github repo, then obtains additional profile data (name, email, bio, etc.). You can leverage this data to analyze the community, identify potential users interested in your project, and initiate effective outreach.
