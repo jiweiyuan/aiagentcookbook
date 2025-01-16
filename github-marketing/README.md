@@ -1,5 +1,9 @@
 # Github Marketing
-This project allows you to retrieve and store information about the stargazers for a specified GitHub repository. The script fetches basic user information (login, URL, HTML URL) for each stargazer, then obtains additional profile details (name, email, bio, etc.). Then you can use this data to analyze the community, engage with users, or run marketing campaigns.
+
+Programmers are always obsessed with building cool things. However, sometimes a marketing boost is needed for a cold start. Let this tool handle the marketing. When you build an OSS project, how do you find users who are interested and help the project grow? This tool might help you identify your target audience and expand your reach.
+
+## Introduction
+This project enables retrieving and storing information about stargazers for a specified GitHub repository. The script fetches essential user details (login, URL, HTML URL) for each stargazer on a Github repo, then obtains additional profile data (name, email, bio, etc.). You can leverage this data to analyze the community, identify potential users interested in your project, and initiate effective outreach.
 
 ## Usage
 - Marketing and outreach campaigns
@@ -28,7 +32,5 @@ pnpm start
 ```
 
 ## Ethical Guidelines
-- Don't spam users with unsolicited messages
-- Respect GitHub's API rate limits
-- Use data in accordance with GitHub's Terms of Service
-- Protect user privacy and personal information
+Please do not send unsolicited messages or spam users, and respect their privacy at all times. This tool is intended to help identify potential users who might be interested in your project, rather than annoy them. Use the data responsibly, and follow the GitHub API usage guidelines.
+
