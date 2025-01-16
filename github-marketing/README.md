@@ -32,5 +32,4 @@ pnpm start
 ```
 
 ## Ethical Guidelines
-Please do not send unsolicited messages or spam users, and respect their privacy at all times. This tool is intended to help identify potential users who might be interested in your project, rather than annoy them. Use the data responsibly, and follow the GitHub API usage guidelines.
-
+Please avoid sending irrelevant messages or spamming users; always respect their privacy. This tool is intended to help identify potential users who may be interested in your project, rather than annoy them. Use the data and tool responsibly.
